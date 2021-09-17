@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/riadul/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_list_item_1.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/riadul/Dropbox/ju-pmscs/second-semester/MAD/Project/MADPMSCS/app/src/main/res/layout/activity_div_dis_upo_details.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/riadul/Dropbox/ju-pmscs/second-semester/MAD/Project/MADPMSCS/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/riadul/Dropbox/ju-pmscs/second-semester/MAD/Project/MADPMSCS/app/src/main/res/layout/activity_spinner_selection.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/riadul/Dropbox/ju-pmscs/second-semester/MAD/Project/MADPMSCS/app/src/main/res/layout/activity_spinner_slection.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/riadul/Dropbox/ju-pmscs/second-semester/MAD/Project/MADPMSCS/app/src/main/res/layout/activity_visiting_card.xml" value="0.4" />
+        <entry key="..\:/Users/riadul/Dropbox/ju-pmscs/second-semester/MAD/Project/MADPMSCS/app/src/main/res/layout/spinner_item.xml" value="0.24479166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

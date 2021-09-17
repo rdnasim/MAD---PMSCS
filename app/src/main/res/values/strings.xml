@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MAD - PMSCS</string>
+    <string name="visiting_card">Visiting Card</string>
+    <string name="spinner_select">Spinner Select</string>
+    <string name="my_name">Md. Riadul Islam</string>
+    <string name="profession">Jr. Software Engineer | Genexus Junior Analyst</string>
+    <string name="phone">+88 01521 305745</string>
+    <string name="email">riadul@banglafire.com</string>
+    <string name="address">H957, R15, Avenue 2, Mirpur DOHS, Dhaka</string>
+    <string name="website">www.banglafire.com</string>
+    <string name="message">Live with a smile :)</string>
+    <string name="Select">Select</string>
+</resources>

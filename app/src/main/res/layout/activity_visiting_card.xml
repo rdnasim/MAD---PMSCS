@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.VisitingCardActivity">
+
+    <ImageView
+        android:id="@+id/scale"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"
+        android:src="@drawable/banglafire" />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="serif"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:text="@string/my_name"
+        android:textColor="#800800"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/specialties"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="serif"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:text="@string/profession"
+        android:textColor="#800800"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/specialties"
+        android:layout_alignParentEnd="true"
+        android:background="#800800" />
+
+    <TextView
+        android:id="@+id/textPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textAddress"
+        android:layout_alignParentEnd="true"
+        android:drawablePadding="16dp"
+        android:fontFamily="serif"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:text="@string/phone"
+        android:textColor="#800800"
+        android:textSize="16sp"
+        app:drawableEndCompat="@drawable/phone" />
+
+    <TextView
+        android:id="@+id/textAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textWebsite"
+        android:layout_alignParentEnd="true"
+        android:drawableEnd="@drawable/place"
+        android:drawablePadding="16dp"
+        android:fontFamily="serif"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:text="@string/address"
+        android:textColor="#800800"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textEmail"
+        android:layout_alignParentEnd="true"
+        android:drawableEnd="@drawable/at"
+        android:drawablePadding="16dp"
+        android:fontFamily="serif"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:text="@string/website"
+        android:textColor="#800800"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:drawableEnd="@drawable/mail"
+        android:drawablePadding="16dp"
+        android:fontFamily="serif"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:text="@string/email"
+        android:textColor="#800800"
+        android:textSize="16sp" />
+
+</RelativeLayout>

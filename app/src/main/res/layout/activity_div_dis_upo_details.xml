@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.DivDisUpoDetailsActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_border"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Details about"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/divisionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/teal_50"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Division Name"
+        android:textColor="@color/light_blue_A700"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/districtTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/teal_50"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="District Name"
+        android:textColor="@color/light_blue_A700"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/upozillaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/teal_50"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Upozilla Name"
+        android:textColor="@color/light_blue_A700"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/coordinateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/teal_50"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Coordinate Name"
+        android:textColor="@color/light_blue_A700"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/findLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Location on map"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
