@@ -11,7 +11,7 @@ import pro.rdnasim.madpmscs.R;
 
 public class VisitingCardActivity extends AppCompatActivity {
 
-    TextView callPhone, website;
+    TextView callPhone, website, address, mail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,8 @@ public class VisitingCardActivity extends AppCompatActivity {
 
         callPhone = findViewById(R.id.textPhone);
         website = findViewById(R.id.textWebsite);
+        address = findViewById(R.id.textAddress);
+        mail = findViewById(R.id.textEmail);
 
         callPhone.setOnClickListener(v -> {
             Intent intent = new Intent(Intent.ACTION_DIAL);
@@ -32,6 +34,18 @@ public class VisitingCardActivity extends AppCompatActivity {
             Uri uri = Uri.parse("http://www.banglafire.com"); // missing 'http://' will cause crashed
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
+        });
+
+        address.setOnClickListener(v -> {
+            String uri = "https://goo.gl/maps/tYgzMbEPYtPBN6SV7";
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+            startActivity(intent);
+        });
+
+        mail.setOnClickListener(v -> {
+            Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
+            emailIntent.setData(Uri.parse("mailto:riadul@banglafire.com"));
+            startActivity(Intent.createChooser(emailIntent, "Send feedback"));
         });
     }
 }

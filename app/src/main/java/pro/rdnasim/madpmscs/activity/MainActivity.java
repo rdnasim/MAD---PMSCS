@@ -10,7 +10,7 @@ import pro.rdnasim.madpmscs.R;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button visitingCardBtn, spinnerBtn;
+    Button visitingCardBtn, spinnerBtn, stopWatchActivityBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         visitingCardBtn = findViewById(R.id.visiting_card);
         spinnerBtn = findViewById(R.id.spinner_select);
+        stopWatchActivityBtn = findViewById(R.id.stopwatch_activity);
 
         visitingCardBtn.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, VisitingCardActivity.class);
@@ -27,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
 
         spinnerBtn.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, SpinnerSelectionActivity.class);
+            startActivity(intent);
+        });
+
+        stopWatchActivityBtn.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, StopWatchActivity.class);
             startActivity(intent);
         });
     }

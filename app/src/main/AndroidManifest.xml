@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MADPMSCS">
         <activity
+            android:name=".activity.StopWatchActivity"
+            android:exported="true" />
+        <activity
             android:name=".activity.DivDisUpoDetailsActivity"
             android:exported="true" />
         <activity

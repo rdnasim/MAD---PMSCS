@@ -10,4 +10,8 @@
     <string name="website">www.banglafire.com</string>
     <string name="message">Live with a smile :)</string>
     <string name="Select">Select</string>
+    <string name="stopwatch_activity">StopWatch Activity</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
 </resources>

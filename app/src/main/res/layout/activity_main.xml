@@ -12,15 +12,17 @@
         android:id="@+id/visiting_card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/visiting_card"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="346dp" />
+        android:text="@string/visiting_card"/>
 
     <Button
         android:id="@+id/spinner_select"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/spinner_select"
-        tools:layout_editor_absoluteX="263dp"
-        tools:layout_editor_absoluteY="347dp" />
+        android:text="@string/spinner_select"/>
+
+    <Button
+        android:id="@+id/stopwatch_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stopwatch_activity"/>
 </LinearLayout>
